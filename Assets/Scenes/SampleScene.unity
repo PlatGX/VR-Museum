@@ -14298,6 +14298,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1342574502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+  m_PrefabInstance: {fileID: 1474179982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1342574503
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342574502}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 786f549145e2e4547b10fec80b39efbd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1351058435
 GameObject:
   m_ObjectHideFlags: 0
@@ -15529,6 +15555,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473904305}
   m_CullTransparentMesh: 1
+--- !u!1001 &1474179982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.809
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0037102022
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      propertyPath: m_Name
+      value: keva block tower
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 2550463727306718371, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1342574503}
+  m_SourcePrefab: {fileID: 100100000, guid: 1c482403ed1325044b8b0e04ecf9a2bf, type: 3}
 --- !u!1 &1501929459
 GameObject:
   m_ObjectHideFlags: 0
@@ -18149,7 +18236,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 4e-45, z: 3.115e-42, w: 3.587e-42}
+  m_BoundingSphereOverride: {x: 7.13e-43, y: 2.989993e-36, z: 7.13e-43, w: 12099.486}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -24528,3 +24615,4 @@ SceneRoots:
   - {fileID: 1703568386}
   - {fileID: 2124855381}
   - {fileID: 213308243}
+  - {fileID: 1474179982}
