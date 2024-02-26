@@ -13,10 +13,12 @@ public class DistanceTrigger : MonoBehaviour
     private float timer;
 
     private Animator anim;
+    private AudioSource aud;
 
     void Start()
     {
         anim = this.GetComponent<Animator>();
+        aud = this.GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -35,6 +37,7 @@ public class DistanceTrigger : MonoBehaviour
     void Activate() //Activates animator transition trigger.
     {
         anim.SetTrigger(triggerName);
+        aud.Play();
         timer = resetDelay;
     }
 }
