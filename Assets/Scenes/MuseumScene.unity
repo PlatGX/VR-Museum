@@ -241,6 +241,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4616165200164398447, guid: 76f3439a0ae796e4b81bee3f91f888ee, type: 3}
   m_PrefabInstance: {fileID: 199294175}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &234143574 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3462571325970164592, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+  m_PrefabInstance: {fileID: 1825262782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &291338448
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c8272611e8a554b928ef8977b2d241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 956622368}
+  target: {fileID: 234143574}
   activationDistance: 5
   resetDelay: 30
   triggerName: NextAnim
@@ -1032,11 +1037,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!4 &956622368 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7179462289238023466, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
-  m_PrefabInstance: {fileID: 1825262782}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001336939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c8272611e8a554b928ef8977b2d241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 956622368}
+  target: {fileID: 234143574}
   activationDistance: 5
   resetDelay: 30
   triggerName: NextAnim
@@ -2588,6 +2588,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2736478854845186207, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+      propertyPath: m_MoveSpeed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4592956391713993908, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
       propertyPath: m_Name
       value: Complete XR Origin Set Up Variant
@@ -2978,7 +2982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35c8272611e8a554b928ef8977b2d241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 956622368}
+  target: {fileID: 234143574}
   activationDistance: 5
   resetDelay: 30
   triggerName: NextAnim
