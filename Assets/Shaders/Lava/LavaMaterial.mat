@@ -59,7 +59,7 @@ Material:
     - _QueueOffset: 0
     m_Colors:
     - _BaseColor: {r: 16, g: 1.6656833, b: 0, a: 1}
-    - _EdgeColor: {r: 0.06721698, g: 0.010739208, b: 0, a: 1}
+    - _EdgeColor: {r: 0.13443395, g: 0.021478416, b: 0, a: 1}
     - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
     - _GalaxyColor: {r: 1, g: 1, b: 1, a: 1}
     - _NoiseUVSpeed: {r: 0, g: 0, b: 0, a: 0}
