@@ -70,7 +70,7 @@ namespace UnityEngine.XR.Content.Interaction
 
         public void UpdateLavaSpeed(float value)
         {
-            incrementSpeed = value * 10;
+            incrementSpeed = value * 0.5f;
         }
     }
 }
