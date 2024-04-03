@@ -120,6 +120,7 @@ namespace UnityEngine.XR.Content.Interaction
         {
             m_Value = value;
             m_OnValueChange.Invoke(m_Value);
+            Debug.Log("Slider value changed to: " + m_Value);
         }
 
         void OnDrawGizmosSelected()
