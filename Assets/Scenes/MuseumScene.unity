@@ -2155,7 +2155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ikActive: 1
   rightHandObj: {fileID: 0}
-  lookObj: {fileID: 1883053384}
+  lookObj: {fileID: 1530107603}
   strength: 0.5
 --- !u!1 &462277589
 GameObject:
@@ -6449,8 +6449,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ikActive: 1
   rightHandObj: {fileID: 0}
-  lookObj: {fileID: 1883053384}
+  lookObj: {fileID: 1530107603}
   strength: 0.5
+--- !u!4 &1530107603 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2871854915733156396, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
+  m_PrefabInstance: {fileID: 1825262782}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1533326344 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1457707633796476995, guid: e1e51d733397e3f4882fae2a05baccf8, type: 3}
@@ -9662,11 +9667,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1869420225}
   m_Mesh: {fileID: 4711208715938537054, guid: 78a3bfa5f2b9b154f82ad7514803306e, type: 3}
---- !u!4 &1883053384 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2871854915951832589, guid: 65eb6b98091a5734ba9d9ca871cef69a, type: 3}
-  m_PrefabInstance: {fileID: 1825262782}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1892856342
 GameObject:
   m_ObjectHideFlags: 0
@@ -10587,7 +10587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ikActive: 1
   rightHandObj: {fileID: 0}
-  lookObj: {fileID: 1883053384}
+  lookObj: {fileID: 1530107603}
   strength: 0.5
 --- !u!1 &1980780237
 GameObject:
